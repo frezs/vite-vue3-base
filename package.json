@@ -1,0 +1,48 @@
+{
+  "name": "vite-vue3-base",
+  "version": "0.0.1",
+  "author": {
+    "name": "frezs",
+    "url": "https://github.com/frezs"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "vite build --mode production",
+    "build:dev": "vite build --mode development",
+    "build:pro": "vite build --mode production"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash-es": "^4.17.21",
+    "vue": "^3.1.4",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.4",
+    "@types/node": "^16.3.1",
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "autoprefixer": "^10.3.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.30.0",
+    "eslint-define-config": "^1.0.9",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.13.0",
+    "less": "^4.1.1",
+    "mockjs": "^1.1.0",
+    "postcss": "^8.3.5",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.35.2",
+    "stylus": "^0.54.8",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.0",
+    "vite-plugin-compression": "^0.3.0",
+    "vite-plugin-mock": "^2.9.1",
+    "vue-tsc": "^0.0.24"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  //此处填写规则
+  "singleQuote": true, //单引号
+  "seme": true, //分号
+  "tabWidth": 2, //缩进
+  "TrailingCooma": "all", //尾部元素有逗号
+  "bracketSpacing": true //对象中的空格
+}

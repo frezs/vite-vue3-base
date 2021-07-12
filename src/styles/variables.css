@@ -1,0 +1,21 @@
+#app[theme='dark'] {
+  --primary-color: #ff3597; /* 全局主色 */
+  --link-color: #ff3597; /* 链接色 */
+
+  --success-color: #52c41a; /* 成功色 */
+  --warning-color: #faad14; /* 警告色 */
+  --error-color: #f5222d; /* 错误色 */
+
+  --font-size-base: 16px; /* 主字号 */
+
+  --seleced-color: #0c0c0c; /* 标题选中色 */
+  --heading-color: #101010; /* 标题色 */
+  --text-color: #202020; /* 主文本色 */
+  --text-color-secondary: #404040; /* 次文本色 */
+  --disabled-color: #808080; /* 失效色 */
+  --heighlight-color: #fff;
+
+  --border-radius-lg: 16px; /* 组件/浮层圆角 大*/
+  --border-radius-md: 8px; /* 组件/浮层圆角 中*/
+  --border-radius-sm: 4px; /* 组件/浮层圆角 小*/
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "baseUrl": ".", //基础目录
+    "paths": {
+      "@/*": ["src/*"], // src/* 别名设置
+      "#/*": ["types/*"] // types/* 别名设置
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "types/**.ts", // 添加 types/**.ts 目录文件依赖
+    "types/**.d.ts", // 添加 types/**.d.ts 目录文件依赖
+    "mock/**/*.ts",
+    "vite.config.ts"
+  ]
+}

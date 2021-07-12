@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true, //保存时格式化
+  "files.autoSave": "onFocusChange", //失去焦点时保存
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  //后边的引号中写上要设置的字体类型，个人比较喜欢Fira Code
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript"
+  ]
+}
