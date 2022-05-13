@@ -1,7 +1,7 @@
 import type { CreateAxiosConfig, AxiosTransform } from './aixos'
 import type { CustomResqusetOptions } from '#/axios'
 
-import { Aixos } from './aixos'
+import { Axios } from './aixos'
 import { objectDeepMerge } from '@/utils'
 
 
@@ -35,7 +35,7 @@ export const customDefaultOptins: CustomResqusetOptions | CreateAxiosConfig = {
 }
 
 export function createAxios(opt?: CreateAxiosConfig) {
-  return new Aixos(objectDeepMerge(customDefaultOptins, opt || {}))
+  return new Axios(objectDeepMerge(customDefaultOptins, opt || {}))
 }
 
 export const defHttp = createAxios({})
