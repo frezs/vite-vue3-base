@@ -17,7 +17,7 @@ export abstract class AxiosTransform {
 }
 
 
-export class Aixos {
+export class Axios {
   private axiosInstance: AxiosInstance
   private readonly options: CreateAxiosConfig
 
